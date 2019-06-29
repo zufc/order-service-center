@@ -1,0 +1,21 @@
+2019-06-28 15:16:34.520 INFO   [,]  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3b2f7017] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 15:16:35.706 INFO   [,]  [main] c.z.s.o.OrderServiceCenterProviderApplicationTests: - The following profiles are active: dev
+2019-06-28 15:16:36.861 WARN   [,]  [main] o.s.boot.actuate.endpoint.EndpointId: - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-06-28 15:16:37.339 INFO   [,]  [main] o.s.cloud.context.scope.GenericScope: - BeanFactory id=10f2c0b6-0df1-3741-a689-a725b5aa9a6d
+2019-06-28 15:16:37.720 INFO   [,]  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1f156d1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 15:16:37.798 INFO   [,]  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3b2f7017] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 15:16:38.809 INFO   [,]  [main] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Starting...
+2019-06-28 15:16:39.035 INFO   [,]  [main] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Start completed.
+2019-06-28 15:16:39.265 INFO   [,]  [main] c.z.study.order.util.SpringBeanUtil: - ========ApplicationContext配置成功,在普通类可以通过调用SpringBeanUtil.getAppContext()获取applicationContext对象,applicationContext=org.springframework.web.context.support.GenericWebApplicationContext@28276e50, started on Fri Jun 28 15:16:35 CST 2019, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@20435c40========
+2019-06-28 15:16:39.703 WARN   [,]  [main] c.n.c.sources.URLConfigurationSource: - No URLs will be polled as dynamic configuration sources.
+2019-06-28 15:16:39.704 INFO   [,]  [main] c.n.c.sources.URLConfigurationSource: - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-28 15:16:39.719 WARN   [,]  [main] c.n.c.sources.URLConfigurationSource: - No URLs will be polled as dynamic configuration sources.
+2019-06-28 15:16:39.720 INFO   [,]  [main] c.n.c.sources.URLConfigurationSource: - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-28 15:16:40.551 INFO   [,]  [main] o.s.s.c.ThreadPoolTaskExecutor: - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-28 15:16:46.466 INFO   [,]  [main] o.s.b.a.e.web.EndpointLinksResolver: - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-28 15:16:46.581 INFO   [,]  [main] c.z.s.o.OrderServiceCenterProviderApplicationTests: - Started OrderServiceCenterProviderApplicationTests in 13.932 seconds (JVM running for 14.887)
+2019-06-28 15:16:46.958 INFO   [,]  [Thread-6] o.s.c.n.eureka.InstanceInfoFactory: - Setting initial instance status as: STARTING
+2019-06-28 15:16:46.963 INFO   [,]  [Thread-6] o.s.c.n.e.s.EurekaServiceRegistry: - Unregistering application ORDER-SERVICE-CENTER with eureka with status DOWN
+2019-06-28 15:16:46.982 INFO   [,]  [Thread-6] o.s.s.c.ThreadPoolTaskExecutor: - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-28 15:16:46.988 INFO   [,]  [Thread-6] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Shutdown initiated...
+2019-06-28 15:16:46.996 INFO   [,]  [Thread-6] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Shutdown completed.
